@@ -8,3 +8,79 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(200, 5%, 20%);
+    color: white;
+}
+
+.container__title {
+
+}
+
+.container__title__content {
+    font-size: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container__output {
+    width: 700px;
+}
+
+.container__output__char-code {
+    font-size: 212px;
+    text-align: center;
+    margin: 20px;
+}
+
+.container__output__desc {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__output__desc > * {
+}
+
+.container__output__desc__key,
+.container__output__desc__code {
+    position: relative;
+    top: 0;
+    flex: 1;
+    box-shadow: 0 0 10px 5px hsla(0, 0%, 0%, 0.1);
+    background-color: hsla(0, 0%, 0%, 0.3);
+    cursor: pointer;
+    transition: 200ms ease-out;
+}
+
+.container__output__desc__key:hover,
+.container__output__desc__code:hover {
+    top: -5px;
+    box-shadow: 0 0 20px 5px hsla(0, 0%, 0%, 0.1);
+}
+
+.container__output__desc__key h3,
+.container__output__desc__code h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: hsl(220, 50%, 50%);
+}
+
+.container__output__desc__key {
+    margin-right: 20px;
+}
+
+.container__output__desc__key__content,
+.container__output__desc__code__content {
+    padding: 10px;
+    text-align: center;
+}
+

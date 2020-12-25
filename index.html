@@ -11,11 +11,21 @@
 </head>
 <body>
     <section class="container">
-        <section class="container__output">
-
+        <section class="container__title">
+            <h1 class="container__title__content">Press any key to get keyboard event...</h1>
         </section>
-        <section class="container__keyboard">
-
+        <section class="container__output hidden">
+            <h2 class="container__output__char-code"></h2>
+            <section class="container__output__desc">
+                <section class="container__output__desc__key">
+                    <h3>event.key</h3>
+                    <p class="container__output__desc__key__content"></p>
+                </section>
+                <section class="container__output__desc__code">
+                    <h3>event.code</h3>
+                    <p class="container__output__desc__code__content"></p>
+                </section>
+            </section>
         </section>
     </section>
     <script src="script.js"></script>
