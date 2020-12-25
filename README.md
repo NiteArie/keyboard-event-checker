@@ -10,12 +10,12 @@ The goal of the Key Value app is to display the encoded value on screen each tim
 
 ## User Stories
 
-* User can see a display panel containing a text area where the key value and key code will be displayed along with display areas for four other indicators related to the keys on the keyboard - alt key, control key, meta key, and shift key.
-* User can see the key code and key value displayed in the display panel corresponding to the key when it is pressed.
-* User can see the appropriate indicator change from 'False' to 'True' when the alt, control, meta, or shift key is pressed.
+* [ ] User can see a display panel containing a text area where the key value and key code will be displayed along with display areas for four other indicators related to the keys on the keyboard - alt key, control key, meta key, and shift key.
+* [ ] User can see the key code and key value displayed in the display panel corresponding to the key when it is pressed.
+* [ ] User can see the appropriate indicator change from 'False' to 'True' when the alt, control, meta, or shift key is pressed.
 
 ## Bonus Features
 
-* User can hear a unique tone played when a key is pressed.
-* User can see the background color of the key code and value change when a key is pressed.
+* [ ] User can hear a unique tone played when a key is pressed.
+* [ ] User can see the background color of the key code and value change when a key is pressed.
 
