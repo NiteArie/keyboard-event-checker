@@ -16,7 +16,7 @@ The goal of the Key Value app is to display the encoded value on screen each tim
 
 ## Bonus Features
 
-* [ ] User can copy to clipboard
+* [X] User can copy to clipboard
 * [ ] User can hear a unique tone played when a key is pressed.
 * [ ] User can see the background color of the key code and value change when a key is pressed.
 
