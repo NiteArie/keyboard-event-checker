@@ -6,14 +6,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: hsl(200, 5%, 20%);
 }
 
 .container {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(200, 5%, 20%);
+
     color: white;
 }
 
@@ -82,5 +83,16 @@ body {
 .container__output__desc__code__content {
     padding: 10px;
     text-align: center;
+}
+
+.footer {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: hsl(220, 50%, 50%);
 }
 
